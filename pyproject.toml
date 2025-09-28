@@ -1,0 +1,16 @@
+[project]
+name = "sigmabot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "discord[voice]>=2.3.2",
+    "pynacl>=1.6.0",
+    "yt-dlp>=2025.9.26",
+]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.31.5",
+]
